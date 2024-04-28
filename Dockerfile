@@ -14,7 +14,7 @@ RUN git clone https://github.com/1a1a11a/libCacheSim -b develop
 RUN git clone https://github.com/tmp2035/eeva.git
 
 
-# build cache
+# build eeva
 WORKDIR /eeva/
 RUN pip install -e . --force-reinstall
 
@@ -24,7 +24,7 @@ RUN git reset --hard 3080f2c2643b7a2b03bcfb7c5837f6fff3aa8908
 
 # our changed file
 RUN rm /libCacheSim/libCacheSim/bin/cachesim/sim.c
-RUN cp /cache/libcache/sim.c /libCacheSim/libCacheSim/bin/cachesim/sim.c
+RUN cp /eeva/libcache/sim.c /libCacheSim/libCacheSim/bin/cachesim/sim.c
 
 RUN mkdir _build;
 RUN bash ./scripts/install_dependency.sh
