@@ -71,14 +71,14 @@ mkdir runs runs/data runs/run_results && \
 And inside it choose and run experiment for some configs:
 
 ```bash
-cd cache
+cd eeva
 python3 experiment_helpers/run_config.py path_to_configs_folder [config_name]
 ```
 
 For example:
 
 ```bash
-cd cache
+cd eeva
 python3 experiment_helpers/run_config.py ../experiment_configs/exp_configs scan_eq_get
 ```
 
@@ -201,7 +201,7 @@ Last entry is for future work. For current realization it is important, that sca
 
 The project is structured as follows:
 
-    ./cache/
+    ./eeva/
     ├── __init__.py
     ├── algorithm
     │   ├── __init__.py
@@ -236,5 +236,5 @@ And there are functions to run experiments:
     ├── script_user.ipynb
     └── scripts/
 
-- `./cache/`: Contains the main project code.
+- `./eeva/`: Contains the main project code.
 - `./experiment_helpers/`: Contains scripts and utilities for running experiments.
