@@ -31,10 +31,6 @@ To build and install the package with full functionality, follow these steps:
    ```bash
    docker build -t cache_server -f Dockerfile .
    ```
-3. Run the Docker container:
-   ```bash
-   docker run -it --name=libcache 1a1a11a/libcachesim:latest bash
-   ```
 
    Note: We have made modifications to `libCacheSim/bin/cachesim/sim.c`. For installation, we copy it from our repository and follow the installation guidelines from the original authors.
 
