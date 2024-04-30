@@ -1,6 +1,6 @@
-# EEvA: Fast expert-based page eviction algorithm for database buffer management
+# EEvA: Fast Expert-Based Algorithms for Buffer Page Replacement
 
-This repository contains the code for the paper "EEvA: Fast expert-based page eviction algorithm for database buffer management".
+This repository contains the code for the paper "EEvA: Fast Expert-Based Algorithms for Buffer Page Replacement".
 
 ![Demo](./assets/compare_image.png)
 
