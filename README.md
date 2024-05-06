@@ -2,6 +2,8 @@
 
 This repository contains the code for the paper "EEvA: Fast Expert-Based Algorithms for Buffer Page Replacement".
 
+ArXiv: https://arxiv.org/abs/2405.00154
+
 ![Demo](./assets/compare_image.png)
 
 ## Table of Contents
